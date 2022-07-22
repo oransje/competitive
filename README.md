@@ -1,7 +1,9 @@
 # Competitive
 
-Just the solution to junior sheet problems in preparing to programming championship.
+Just the solution to junior sheet problems in preparing to programming championship. 
 
-Religously following the junior sheet by mostafaa.saa.fci on Codeforces.
+This codes are not intended to be readable by humans, only by the judging system, they are coded on insane speed.
 
-Please, do not look on my code, unless you tried to solve!
+Following the junior sheet by mostafaa.saa.fci on Codeforces.
+
+Please, do not look on my code, unless you have solved it!
