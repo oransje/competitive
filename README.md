@@ -1,4 +1,4 @@
-# junior-sheet
+# Competitive
 
 Just the solution to junior sheet problems in preparing to programming championship.
 
