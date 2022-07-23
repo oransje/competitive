@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 #define LEN 5
@@ -18,43 +19,7 @@ int main () {
 		}
 	}
 
-	c = 0;
-	// Turn horizontal
-	while(y != MID_POS) {
-		int t = y - MID_POS;
-		if (t > 0) {
-			m[x][y] = 0;
-			y = y - 1;
-			m[x][y] = 1;
-		}
-
-		if (t < 0) {
-			m[x][y] = 0;
-			y = y + 1;
-			m[x][y] = 1;
-		}
-
-		c++;
-	}
-
-	// turn vertical
-	while(x != MID_POS) {
-		int t = x - MID_POS;
-		if (t > 0) {
-			m[x][y] = 0;
-			x = x - 1;
-			m[x][y] = 1;
-		}
-
-		if (t < 0) {
-			m[x][y] = 0;
-			x = x + 1;
-			m[x][y] = 1;
-		}
-
-		c++;
-	}
-
+	c = abs(x - MID_POS) + abs(y - MID_POS);
 	cout << c << endl;
 
 	return 0;
